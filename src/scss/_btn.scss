@@ -1,0 +1,36 @@
+.btn {
+  background: #a259ff;
+  height: 60px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  &-header {
+    width: 152px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &::before {
+      content: url("../img/icon/user.svg");
+      margin-right: 12px;
+    }
+    
+  }
+  &-text {
+    color: var(--font-white);
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
+
+.btn-about {
+    width: 224px;
+    color: var(--font-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    &::before {
+        content: url('../img/icon/about-rocketLaunch.svg');
+        margin-right: 12px;
+    }
+}

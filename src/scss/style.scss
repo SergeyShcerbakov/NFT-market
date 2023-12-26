@@ -1,0 +1,17 @@
+body {
+  background: #2b2b2b;
+  font-family: "WorkSans";
+}
+
+.container {
+  width: 1180px;
+}
+
+:root {
+  --font-white: #fff;
+}
+
+@import "fonts";
+@import "header";
+@import "btn";
+@import "about";

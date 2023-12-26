@@ -1,0 +1,170 @@
+body {
+  background: #2b2b2b;
+  font-family: "WorkSans";
+}
+
+.container {
+  width: 1180px;
+}
+
+:root {
+  --font-white: #fff;
+}
+
+@font-face {
+  font-family: "WorkSans";
+  src: url("../font/WorkSans.ttf");
+  font-weight: 400;
+}
+.header {
+  display: flex;
+  justify-content: center;
+}
+.header .header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .header-wrapper .header-caption {
+  color: var(--font-white);
+  align-items: center;
+  display: flex;
+}
+.header .header-wrapper .header-caption::before {
+  content: url("../img/icon/nft-logo.svg");
+  width: 32px;
+  margin-right: 12px;
+}
+
+.menu__list {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+.menu__list-item {
+  display: flex;
+  align-items: center;
+}
+.menu__list .menu__item-link {
+  color: var(--font-white);
+  text-decoration: none;
+}
+
+.btn {
+  background: #a259ff;
+  height: 60px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+.btn-header {
+  width: 152px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-header::before {
+  content: url("../img/icon/user.svg");
+  margin-right: 12px;
+}
+.btn-text {
+  color: var(--font-white);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-about {
+  width: 224px;
+  color: var(--font-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.btn-about::before {
+  content: url("../img/icon/about-rocketLaunch.svg");
+  margin-right: 12px;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.about-wrapper {
+  display: flex;
+}
+
+.about-left {
+  width: 510px;
+  margin-right: 30px;
+}
+
+.about__title {
+  font-size: 67px;
+  line-height: 73px;
+  margin-top: 0px;
+}
+.about__title-text {
+  display: block;
+  color: var(--font-white);
+}
+
+.about-text {
+  color: var(--font-white);
+  line-height: 35px;
+  font-weight: 400;
+}
+.about-text-span {
+  display: block;
+}
+.about-text-decor {
+  margin: 22px 0 0 20px;
+}
+.about-text-name {
+  color: var(--font-white);
+  margin: 12px 0 0 20px;
+  display: flex;
+  align-items: center;
+  line-height: 0px;
+}
+.about-text-name::before {
+  content: url("../img/icon/about-asset-12-2-min.png");
+  margin-right: 12px;
+}
+
+.about-count {
+  display: flex;
+  gap: 30px;
+}
+.about-count .about-sale {
+  color: var(--font-white);
+  line-height: 38px;
+}
+
+.about-total {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.about-desc {
+  font-size: 24px;
+  margin: 0;
+}
+
+.about-right {
+  height: 510px;
+}
+.about-right-img {
+  display: block;
+}
+
+.about-comment {
+  width: 510px;
+  height: 109px;
+  border-radius: 0 0 20px 20px;
+  background: #3B3B3B;
+  display: inline-block;
+}

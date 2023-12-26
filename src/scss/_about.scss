@@ -1,0 +1,84 @@
+.about {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.about-wrapper {
+    display: flex;
+}
+
+.about-left {
+    width: 510px;
+    margin-right: 30px;
+}
+
+.about__title {
+    font-size: 67px;
+    line-height: 73px;
+    margin-top: 0px;
+    &-text {
+        display: block;
+        color: var(--font-white);
+    }
+}
+
+.about-text {
+    color: var(--font-white);
+    line-height: 35px;
+    font-weight: 400;
+    &-span {
+        display: block;
+    }
+    &-decor {
+        margin: 22px 0 0 20px;
+    }
+    &-name {
+        color: var(--font-white);
+        margin: 12px 0 0 20px;
+        display: flex;
+        align-items: center;
+        line-height: 0px;
+        &::before {
+            content: url('../img/icon/about-asset-12-2-min.png');
+            margin-right: 12px;
+
+        }
+    }
+    
+}
+
+.about-count {
+    display: flex;
+    gap: 30px;
+    .about-sale {
+        color: var(--font-white);
+        line-height: 38px;
+    }
+}
+
+.about-total {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+}
+.about-desc {
+    font-size: 24px;
+    margin: 0;
+}
+
+.about-right {
+    height: 510px;
+    &-img {
+        display: block;
+    }
+}
+
+.about-comment {
+    width: 510px;
+    height: 109px;
+    border-radius: 0 0 20px 20px;
+    background: #3B3B3B;
+    display: inline-block;
+}
+
