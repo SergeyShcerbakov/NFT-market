@@ -1,0 +1,33 @@
+{
+  "name": "nft-market",
+  "version": "1.0.0",
+  "description": "NFT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergeyShcerbakov/NFT-market.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "scss",
+    "gulp"
+  ],
+  "author": "sv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SergeyShcerbakov/NFT-market/issues"
+  },
+  "homepage": "https://github.com/SergeyShcerbakov/NFT-market#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-file-include": "^2.3.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.55.0"
+  }
+}
