@@ -9,6 +9,7 @@
       color: var(--font-white);
       align-items: center;
       display: flex;
+      font-weight: 600;
       &::before {
         content: url("../img/icon/nft-logo.svg");
         width: 32px;
@@ -29,5 +30,6 @@
   .menu__item-link {
     color: var(--font-white);
     text-decoration: none;
+    font-weight: 600;
   }
 }

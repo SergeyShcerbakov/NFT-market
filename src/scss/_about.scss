@@ -1,7 +1,7 @@
 .about {
     display: flex;
     justify-content: center;
-    margin-top: 80px;
+    margin: 80px 0 80px;
 }
 
 .about-wrapper {
@@ -17,6 +17,7 @@
     font-size: 67px;
     line-height: 73px;
     margin-top: 0px;
+    font-weight: 600;
     &-text {
         display: block;
         color: var(--font-white);
@@ -65,6 +66,7 @@
 .about-desc {
     font-size: 24px;
     margin: 0;
+    font-weight: 400;
 }
 
 .about-right {
@@ -80,5 +82,13 @@
     border-radius: 0 0 20px 20px;
     background: #3B3B3B;
     display: inline-block;
+}
+
+.about-text-decor {
+    font-weight: 600;
+}
+
+.about-text-name {
+    font-weight: 400;
 }
 

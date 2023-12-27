@@ -1,0 +1,77 @@
+.collection {
+    margin: 80px 115px 80px 115px;
+}
+
+.collection-title {
+  font-size: 38px;
+  margin: 0;
+}
+
+.collection-desc {
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--font-white);
+    margin: 0 0 60px 0;
+    line-height: 35px;
+}
+
+.collection-wrapper {
+    display: flex;
+    gap: 30px;
+    &-small {
+        display: flex;
+        gap: 15px;
+        margin-bottom: 20px;
+    }
+}
+
+.collection-main-img {
+    margin-bottom: 15px;
+}
+
+.collection-box-violet {
+    width: 100px;
+    height: 100px;
+    background: var(--bg-color-violet);
+    border-radius: 20px;
+    color: var(--font-white);
+    font-size: 22px;
+    font-family: "SpaceMono-Bold";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.collection-sub-title {
+    margin: 0 0 10px;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-size: 16px;
+}
+
+.collection-text-name{
+    &--fox {
+        &::before{
+            content: url("../img/icon/fox-avatar-collection.png");
+            margin-right: 12px;
+        }
+    }
+    &--cat {
+        &::before{
+            content: url("../img/icon/man-avatar-collection.png");
+            margin-right: 12px;
+        } 
+    }
+    &--robot {
+        &::before{
+            content: url("../img/icon/robot-avatar-collection.png");
+            margin-right: 12px;
+        } 
+    }
+}
+
+

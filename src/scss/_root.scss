@@ -1,0 +1,32 @@
+:root {
+  --font-white: #fff;
+  --bg-color-violet: #a259ff;
+  --bg-grey: #3b3b3b;
+  --bg-dark-grey: #2b2b2b;
+  --number-grey: #858584;
+}
+
+body {
+  background: #2b2b2b;
+  font-family: "WorkSans";
+}
+
+.container {
+  width: 1180px;
+}
+
+.title {
+  font-weight: 600;
+  color: var(--font-white);
+}
+
+.sub-title {
+  color: var(--font-white);
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.name {
+  color: var(--font-white);
+  font-weight: 400;
+}
