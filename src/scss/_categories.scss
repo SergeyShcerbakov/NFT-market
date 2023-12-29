@@ -1,3 +1,23 @@
 .categories {
-    margin: 80px 115px 80px 115px;
+  margin: 80px 115px 80px 115px;
+
+  &-block {
+    display: inline-block;
+  }
+
+  &__item {
+    display: inline-grid;
+    justify-content: center;
+    padding: 0px 0px 20px;
+  }
+
+  &__item {
+    display: inline-grid;
+    justify-content: center;
+    padding: 0px 0px 20px;
+  }
+
+  &__subtitle {
+    margin: 20px 30px 10px;
+  }
 }

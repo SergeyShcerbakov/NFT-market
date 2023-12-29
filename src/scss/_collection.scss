@@ -2,6 +2,10 @@
     margin: 80px 115px 80px 115px;
 }
 
+.title-wrapp {
+    text-align: center;
+}
+
 .collection-title {
   font-size: 38px;
   margin: 0;
@@ -18,6 +22,7 @@
 .collection-wrapper {
     display: flex;
     gap: 30px;
+    justify-content: center;
     &-small {
         display: flex;
         gap: 15px;
