@@ -5,4 +5,28 @@
 .discover__items {
     display: flex;
     gap: 30px;
+    .discover__item {
+        background: var(--bg-grey);
+        border-radius: 20px;
+        width: 330px;
+        height: 480px;
+    }
 }
+
+.discover__price-wrapp {
+    display: flex;
+    justify-content: space-around;
+    .discover__price {
+        justify-content: space-between;
+    }
+    
+    .discover__price-text {
+        color: var(--number-grey);
+    }
+    
+    .discover__price-sum {
+        color: var(--font-white);
+    }
+}
+
+

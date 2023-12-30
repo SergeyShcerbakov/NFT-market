@@ -414,4 +414,25 @@ body {
 
 .discover__items {
   display: flex;
+  gap: 30px;
+}
+.discover__items .discover__item {
+  background: var(--bg-grey);
+  border-radius: 20px;
+  width: 330px;
+  height: 480px;
+}
+
+.discover__price-wrapp {
+  display: flex;
+  justify-content: space-around;
+}
+.discover__price-wrapp .discover__price {
+  justify-content: space-between;
+}
+.discover__price-wrapp .discover__price-text {
+  color: var(--number-grey);
+}
+.discover__price-wrapp .discover__price-sum {
+  color: var(--font-white);
 }
