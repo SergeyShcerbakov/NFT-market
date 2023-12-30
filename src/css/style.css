@@ -407,3 +407,11 @@ body {
 .categories__subtitle {
   margin: 20px 30px 10px;
 }
+
+.discover {
+  margin: 80px 115px;
+}
+
+.discover__items {
+  display: flex;
+}
