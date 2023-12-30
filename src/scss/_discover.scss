@@ -1,17 +1,21 @@
 .discover {
     margin: 80px 115px;
-}
-
-.discover__items {
-    display: flex;
-    gap: 30px;
-    .discover__item {
-        background: var(--bg-grey);
-        border-radius: 20px;
-        width: 330px;
-        height: 480px;
+    .discover__items {
+        display: flex;
+        gap: 30px;
+        .discover__item {
+            background: var(--bg-grey);
+            border-radius: 20px;
+            width: 330px;
+            height: 480px;
+        }
+        &__text {
+            color: var(--font-white);
+        }
     }
 }
+
+
 
 .discover__price-wrapp {
     display: flex;
