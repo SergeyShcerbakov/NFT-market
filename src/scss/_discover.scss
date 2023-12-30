@@ -1,17 +1,25 @@
 .discover {
     margin: 80px 115px;
-    .discover__items {
+    &__items {
         display: flex;
         gap: 30px;
-        .discover__item {
-            background: var(--bg-grey);
-            border-radius: 20px;
-            width: 330px;
-            height: 480px;
-        }
-        &__text {
-            color: var(--font-white);
-        }
+    }
+
+    &__item {
+        background: var(--bg-grey);
+        border-radius: 20px;
+        width: 330px;
+        height: 480px;
+    }
+
+    &__text {
+        color: var(--font-white);
+        margin-left: 30px;
+    }
+
+    &__name {
+        color: var(--font-white);
+        margin-left: 30px;
     }
 }
 

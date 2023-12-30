@@ -411,16 +411,23 @@ body {
 .discover {
   margin: 80px 115px;
 }
-
 .discover__items {
   display: flex;
   gap: 30px;
 }
-.discover__items .discover__item {
+.discover__item {
   background: var(--bg-grey);
   border-radius: 20px;
   width: 330px;
   height: 480px;
+}
+.discover__text {
+  color: var(--font-white);
+  margin-left: 30px;
+}
+.discover__name {
+  color: var(--font-white);
+  margin-left: 30px;
 }
 
 .discover__price-wrapp {
