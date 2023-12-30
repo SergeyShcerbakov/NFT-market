@@ -14,7 +14,6 @@
       content: url("../img/icon/user.svg");
       margin-right: 12px;
     }
-    
   }
   &-text {
     color: var(--font-white);
@@ -24,17 +23,17 @@
 }
 
 .btn-about {
-    width: 224px;
-    color: var(--font-white);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
-    font-weight: 600;
-    &::before {
-        content: url('../img/icon/about-rocketLaunch.svg');
-        margin-right: 12px;
-    }
+  width: 224px;
+  color: var(--font-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  font-weight: 600;
+  &::before {
+    content: url("../img/icon/about-rocketLaunch.svg");
+    margin-right: 12px;
+  }
 }
 
 .btn-creators {
@@ -46,8 +45,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  &::before{
+  &::before {
     content: url("../img/icon/creators-rocketLaunch-violet.svg");
     margin-right: 12px;
   }
+}
+
+.btn-eye {
+  width: 187px;
+    background: none;
+    border: 2px solid var(--bg-color-violet);
+    color: var(--font-white);
+    align-self: end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &::before {
+      content: url("../img/icon/eye.svg");
+      margin-right: 12px;
+    }
 }

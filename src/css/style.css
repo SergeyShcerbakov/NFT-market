@@ -135,6 +135,21 @@ body {
   margin-right: 12px;
 }
 
+.btn-eye {
+  width: 187px;
+  background: none;
+  border: 2px solid var(--bg-color-violet);
+  color: var(--font-white);
+  align-self: end;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-eye::before {
+  content: url("../img/icon/eye.svg");
+  margin-right: 12px;
+}
+
 .about {
   display: flex;
   justify-content: center;
