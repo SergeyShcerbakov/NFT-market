@@ -498,6 +498,11 @@ body {
   padding: 60px;
 }
 .join-pic {
-  width: 425px;
-  height: 310px;
+  margin-right: 80px;
+}
+
+.inputEmail {
+  width: 210px;
+  height: 60px;
+  outline: 0;
 }
