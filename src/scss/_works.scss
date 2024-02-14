@@ -7,4 +7,13 @@
         color: #fff;
         font-size: 22px;
     }
+    &-wrapper {
+        display: flex;
+    }
+    &-box {
+        width: 330px;
+        height: 439px;
+        background-color: #3B3B3B;
+    }
 }
+
