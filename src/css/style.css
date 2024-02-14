@@ -450,6 +450,9 @@ body {
   height: 600px;
 }
 
+.works {
+  margin-bottom: 40px;
+}
 .works-title {
   color: #fff;
   font-size: 38px;
@@ -470,6 +473,7 @@ body {
   width: 330px;
   height: 439px;
   background-color: #3B3B3B;
+  border-radius: 20px;
 }
 .works-text {
   color: #fff;
@@ -479,4 +483,13 @@ body {
   color: #fff;
   font-size: 16px;
   padding: 0 30px;
+}
+
+.join {
+  margin: 40px 0 40px;
+}
+.join-main {
+  background-color: #3B3B3B;
+  width: 1050px;
+  height: 430px;
 }
