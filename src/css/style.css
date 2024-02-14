@@ -460,6 +460,9 @@ body {
 }
 .works-wrapper {
   display: flex;
+  gap: 30px;
+  text-align: center;
+  justify-content: center;
 }
 .works-box {
   width: 330px;
