@@ -451,7 +451,7 @@ body {
 }
 
 .works {
-  margin-bottom: 40px;
+  padding-bottom: 40px;
 }
 .works-title {
   color: #fff;
@@ -486,10 +486,18 @@ body {
 }
 
 .join {
-  margin: 40px 0 40px;
+  padding: 40px 0;
 }
-.join-main {
+.join-main-wrapp {
   background-color: #3B3B3B;
   width: 1050px;
   height: 430px;
+  border-radius: 20px;
+  margin: 0 auto;
+  display: flex;
+  padding: 60px;
+}
+.join-pic {
+  width: 425px;
+  height: 310px;
 }

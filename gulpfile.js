@@ -75,5 +75,5 @@ exports.dev = series(
   csstodist,
   fontstodist,
     // imgmin,
-  //   libstoDest
+    // libstoDest
 );

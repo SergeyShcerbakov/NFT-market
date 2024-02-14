@@ -1,9 +1,16 @@
 .join {
-    margin: 40px 0 40px;
-    &-main {
+    padding: 40px 0;
+    &-main-wrapp {
         background-color: #3B3B3B;
         width: 1050px;
         height: 430px;
         border-radius: 20px;
+        margin: 0 auto;
+        display: flex;
+        padding: 60px;
+    }
+
+    &-pic {
+        margin-right: 80px;
     }
 }
