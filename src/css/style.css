@@ -443,3 +443,8 @@ body {
 .discover__price-wrapp .discover__price-sum {
   color: var(--font-white);
 }
+
+.magic {
+  background-image: url("../img/picture/magic-highlight-min.png");
+  height: 800px;
+}
