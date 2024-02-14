@@ -453,10 +453,12 @@ body {
 .works-title {
   color: #fff;
   font-size: 38px;
+  margin-left: 60px;
 }
 .works-subtitle {
   color: #fff;
   font-size: 22px;
+  margin-left: 60px;
 }
 .works-wrapper {
   display: flex;
