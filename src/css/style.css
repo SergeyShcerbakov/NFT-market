@@ -453,9 +453,16 @@ body {
 .works-title {
   color: #fff;
   font-size: 38px;
-  font-family: "WorkSans";
-  font-weight: 600;
 }
 .works-subtitle {
   color: #fff;
+  font-size: 22px;
+}
+.works-wrapper {
+  display: flex;
+}
+.works-box {
+  width: 330px;
+  height: 439px;
+  background-color: #3B3B3B;
 }
