@@ -74,6 +74,6 @@ exports.dev = series(
   buildStyles,
   csstodist,
   fontstodist,
-    // imgmin,
+    imgmin,
     // libstoDest
 );
