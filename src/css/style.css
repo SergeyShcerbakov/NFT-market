@@ -150,6 +150,12 @@ body {
   margin-right: 12px;
 }
 
+.btn-join {
+  width: 210px;
+  height: 60px;
+  margin-left: -30px;
+}
+
 .about {
   display: flex;
   justify-content: center;
@@ -500,9 +506,14 @@ body {
 .join-pic {
   margin-right: 80px;
 }
+.join-btn-wrapp {
+  display: flex;
+}
 
 .inputEmail {
   width: 210px;
-  height: 60px;
+  height: 54px;
   outline: 0;
+  border-radius: 20px;
+  padding-left: 20px;
 }

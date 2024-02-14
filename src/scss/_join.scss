@@ -13,10 +13,18 @@
     &-pic {
         margin-right: 80px;
     }
+
+    &-btn-wrapp {
+        display: flex;
+        
+    }
 }
 
 .inputEmail {
     width: 210px;
-    height: 60px;
+    height: 58px;
     outline: 0;
+    border: none;
+    border-radius: 20px;
+    padding-left: 20px;
 }
