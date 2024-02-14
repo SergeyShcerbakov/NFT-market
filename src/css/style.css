@@ -471,3 +471,12 @@ body {
   height: 439px;
   background-color: #3B3B3B;
 }
+.works-text {
+  color: #fff;
+  font-size: 22px;
+}
+.works-desc {
+  color: #fff;
+  font-size: 16px;
+  padding: 0 30px;
+}
