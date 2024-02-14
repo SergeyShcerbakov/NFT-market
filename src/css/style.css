@@ -458,6 +458,11 @@ body {
   color: #fff;
   font-size: 22px;
 }
+.works-main-box {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
 .works-wrapper {
   display: flex;
   gap: 30px;

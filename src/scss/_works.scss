@@ -1,18 +1,28 @@
 .works {
-    &-title{
+
+    &-title {
     color: #fff;
     font-size: 38px;
     }
+
     &-subtitle {
         color: #fff;
         font-size: 22px;
     }
+
+    &-main-box {
+        display: grid;
+    justify-content: center;
+    align-items: center;
+    }
+
     &-wrapper {
         display: flex;
         gap: 30px;
         text-align: center;
         justify-content: center;
     }
+
     &-box {
         width: 330px;
         height: 439px;
