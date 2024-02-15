@@ -533,3 +533,11 @@ body {
   border-radius: 20px;
   padding-left: 20px;
 }
+
+.footer {
+  height: 335px;
+  background: var(--bg-grey);
+}
+.footer-wrapp {
+  display: flex;
+}
