@@ -1,7 +1,33 @@
 .footer {
     height: 335px;
     background: var(--bg-grey);
+
+    &-box {
+        width: 238px;
+    }
+
+    &-title {
+        color: var(--font-white);
+        font-size: 22px;
+        display: flex;
+        align-items: center;
+        &::before {
+            content: url(../img/icon/nft-logo.svg);
+            width: 32px;
+            margin-right: 12px;
+        }
+    }
+
     &-wrapp {
         display: flex;
+    }
+
+    &-text, &-join-title {
+        color: var(--text-light-grey);
+    }
+
+    &-join-social {
+        display: flex;
+        gap: 10px;
     }
 }

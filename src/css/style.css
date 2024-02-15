@@ -4,6 +4,7 @@
   --bg-grey: #3b3b3b;
   --bg-dark-grey: #2b2b2b;
   --number-grey: #858584;
+  --text-light-grey: #cccccc;
 }
 
 body {
@@ -538,6 +539,27 @@ body {
   height: 335px;
   background: var(--bg-grey);
 }
+.footer-box {
+  width: 238px;
+}
+.footer-title {
+  color: var(--font-white);
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+}
+.footer-title::before {
+  content: url(../img/icon/nft-logo.svg);
+  width: 32px;
+  margin-right: 12px;
+}
 .footer-wrapp {
   display: flex;
+}
+.footer-text, .footer-join-title {
+  color: var(--text-light-grey);
+}
+.footer-join-social {
+  display: flex;
+  gap: 10px;
 }
