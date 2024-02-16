@@ -555,6 +555,7 @@ body {
 }
 .footer-wrapp {
   display: flex;
+  justify-content: space-around;
 }
 .footer-text, .footer-join-title {
   color: var(--text-light-grey);
@@ -576,13 +577,27 @@ body {
 .box-title {
   display: flex;
   justify-content: space-around;
+  align-items: center;
+}
+
+.footer-list {
+  padding: 0;
 }
 
 .footer-list-item {
   list-style: none;
   color: var(--text-light-grey);
+  margin-bottom: 20px;
 }
 
 li a {
   text-decoration: none;
+}
+
+.footer-link {
+  color: var(--text-light-grey);
+}
+
+.title-w {
+  width: 238px;
 }
