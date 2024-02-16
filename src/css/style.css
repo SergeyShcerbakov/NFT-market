@@ -563,3 +563,26 @@ body {
   display: flex;
   gap: 10px;
 }
+
+.footer-title-exp {
+  font-size: 22px;
+  color: var(--font-white);
+}
+.footer-title-join {
+  font-size: 22px;
+  color: var(--font-white);
+}
+
+.box-title {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-list-item {
+  list-style: none;
+  color: var(--text-light-grey);
+}
+
+li a {
+  text-decoration: none;
+}

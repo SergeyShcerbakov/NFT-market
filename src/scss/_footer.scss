@@ -1,33 +1,59 @@
 .footer {
-    height: 335px;
-    background: var(--bg-grey);
+  height: 335px;
+  background: var(--bg-grey);
 
-    &-box {
-        width: 238px;
-    }
+  &-box {
+    width: 238px;
+  }
 
-    &-title {
-        color: var(--font-white);
-        font-size: 22px;
-        display: flex;
-        align-items: center;
-        &::before {
-            content: url(../img/icon/nft-logo.svg);
-            width: 32px;
-            margin-right: 12px;
-        }
+  &-title {
+    color: var(--font-white);
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    &::before {
+      content: url(../img/icon/nft-logo.svg);
+      width: 32px;
+      margin-right: 12px;
     }
+  }
 
-    &-wrapp {
-        display: flex;
-    }
+  &-wrapp {
+    display: flex;
+  }
 
-    &-text, &-join-title {
-        color: var(--text-light-grey);
-    }
+  &-text,
+  &-join-title {
+    color: var(--text-light-grey);
+  }
 
-    &-join-social {
-        display: flex;
-        gap: 10px;
-    }
+  &-join-social {
+    display: flex;
+    gap: 10px;
+  }
+}
+
+.footer-title {
+  &-exp {
+    font-size: 22px;
+    color: var(--font-white);
+  }
+  &-join {
+    font-size: 22px;
+    color: var(--font-white);
+  }
+}
+
+.box-title {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-list-item {
+  list-style: none;
+  color: var(--text-light-grey);
+}
+
+li a {
+  text-decoration: none;
 }
