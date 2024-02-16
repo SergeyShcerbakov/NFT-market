@@ -601,3 +601,7 @@ li a {
 .title-w {
   width: 238px;
 }
+
+.footer-get-text {
+  color: var(--text-light-grey);
+}
